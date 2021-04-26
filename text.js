@@ -45,7 +45,11 @@ function runWhileLoop() {
 
         $("div#while-result").append(...);
     */
-
+    let index = 65
+    while (index < 65 + number){
+        output += string.fromCharCode(index);
+        index ++;
+    }
 
     $("div#while-result").text(output);
 }
@@ -59,7 +63,9 @@ function runForLoop() {
         Use a for loop to add the numbers 1 through "number"
         into the variable "sum". Output the sum to the div.
     */
-
+    for (let i = 1; i<=number; i++){
+        sum+= i;
+    }
     $("div#for-result").text(sum);
 }
 
@@ -77,6 +83,12 @@ function runDoWhileLoop() {
 
         $("div#do-while-result").append(...);
     */
+    let index = 1;
+    do {
+        $("div#do-while-result").append(index.toString());
+        index ++;
+    }
+    while (index <= number )
 
 
 
