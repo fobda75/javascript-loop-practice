@@ -57,7 +57,7 @@ function runWhileLoop() {
     */
     let index = 65
     while (index < 65 + number){
-        output += string.fromCharCode(index);
+        output += String.fromCharCode(index);
         index ++;
     }
 
@@ -94,6 +94,7 @@ function runDoWhileLoop() {
         $("div#do-while-result").append(...);
     */
     let index = 1;
+    $("div#do-while-result").text("");
     do {
         $("div#do-while-result").append(index.toString());
         index ++;
