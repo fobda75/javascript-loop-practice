@@ -21,7 +21,19 @@ function runLoops(event) {
         "while-loop"    ==>  runWhileLoop()
         "do-while-loop" ==>  runDoWhileLoop()
     */
+    switch (selectedLoop){
+        case "for-loop":
+            runForLoop();
+            break;
 
+        case "while-loop":
+            runWhileLoop();
+            break;
+
+        case "do-while-loop":
+            runDoWhileLoop();
+            break;
+    }
 
 
 
