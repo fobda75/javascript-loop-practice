@@ -23,7 +23,11 @@ function runLoops() {
         addImageToDiv("#while-loop");
     */
 
-
+    let index = 0;
+    while (index<= num){
+        addImageToDiv("#while-loop");
+        index ++;
+    }
 
 
 
@@ -35,6 +39,12 @@ function runLoops() {
         addImageToDiv("#do-while-loop");
     */
 
+    index = 1;
+    do {
+        addImageToDiv("#do-while-loop");
+        index ++;
+    }
+    while (index < num)
 
 
 
@@ -46,7 +56,9 @@ function runLoops() {
 
         addImageToDiv("#for-loop");
     */
-
+    for (index = 1; index <= num; index++) {
+        addImageToDiv("#for-loop");
+    }
 
 
 
